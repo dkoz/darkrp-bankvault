@@ -21,5 +21,8 @@ BANK_CONFIG.Bankers = { -- The teams considered bankers by the bank. (Uses the n
 }
 BANK_CONFIG.Robbers = { -- The teams that can rob the vault. (Uses the name displayed in the F4 menu)
     ['Gangster'] = true, 
-    ['Mob Boss'] = true,
+    ['Mob boss'] = true,
 }
+
+BANK_CONFIG.EnableJobs = true -- Enable/Disable Bank Jobs
+BANK_CONFIG.EnableDoors = true -- Enable Bank DoorGroup
