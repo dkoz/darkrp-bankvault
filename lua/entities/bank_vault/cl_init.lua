@@ -1,6 +1,6 @@
 include('shared.lua')
 
-surface.CreateFont('BankFont', {font = 'Coolvetica Rg', size = 100})
+surface.CreateFont('BankFont', {font = 'DermaDefaultBold', size = 70})
 function ENT:Draw()
     self:DrawModel()
 
